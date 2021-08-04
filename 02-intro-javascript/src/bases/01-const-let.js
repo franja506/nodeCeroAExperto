@@ -1,8 +1,19 @@
-//variables y constantes
+
+// Variables y Constantes
+
 const nombre = 'Fernando';
-const apellido = 'Gonzalez';
+const apellido = 'Herrera';
 
 let valorDado = 5;
 valorDado = 4;
 
-console.log(`valor dado: {valorDado}`);
+console.log( nombre, apellido, valorDado )
+
+// var No se debe de usar...
+if ( true ) {
+    const nombre = 'Peter';
+    console.log(nombre)
+}
+
+console.log( valorDado );
+
